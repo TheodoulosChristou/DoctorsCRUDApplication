@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { DoctorsComponent } from './doctors/doctors.component';
 import { DoctorEditComponent } from './doctors/doctor-edit/doctor-edit.component';
 
+//Routes of the Doctors App
 const routes: Routes = [
   {
     path:'', 
