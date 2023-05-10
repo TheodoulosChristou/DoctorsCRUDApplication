@@ -1,0 +1,41 @@
+<form [formGroup]="doctorForm">
+    <div class="field">
+        <label for="firstName">FirstName</label>
+        <div>
+            <input type="text" pInputText formControlName="firstName" id="firstName" [style]="{width: '400px'}">
+        </div>
+
+        <div *ngIf="doctorForm.controls['firstName'].touched && doctorForm.controls['firstName'].invalid">
+            <small id="username-help" class="p-error">FirstName is required.</small>            
+        </div>
+    </div>
+
+    <div class="field">
+        <label for="surname">Surname</label>
+        <div>
+            <input type="text" pInputText formControlName="surname" id="surname" [style]="{width: '400px'}">
+        </div>
+
+        <div *ngIf="doctorForm.controls['surname'].touched && doctorForm.controls['surname'].invalid">
+            <small id="username-help" class="p-error">Surname is required.</small>            
+        </div>
+    </div>
+
+
+    <div class="field">
+        <label for="age">Age</label>
+        <div>
+            <input type="number" pInputText formControlName="age" id="age" [style]="{width: '400px'}">
+        </div>
+
+        <div *ngIf="doctorForm.controls['age'].touched && doctorForm.controls['age'].invalid">
+            <small id="username-help" class="p-error">Age is required.</small>            
+        </div>
+    </div>
+
+    <div class="editAddDoctorButton">
+        <p-button  [disabled]="doctorForm.invalid" (click)="addUpdateDoctor()" label="{{selectedDoctor ? 'Save' : 'Add'}}" styleClass="{{selectedDoctor ? 'p-button-success' : ''}}"></p-button>
+    </div>    
+</form>
+
+<p-toast></p-toast>
