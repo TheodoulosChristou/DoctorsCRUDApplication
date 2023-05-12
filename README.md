@@ -9,7 +9,7 @@ This project shows how to create,read,update and delete doctors. Every part of t
 * Create FrontEnd and UI with [Angular.js] and [PrimeNg].
 * Create a simple Web API that serves Projects and Employees using [ASP.NET] 7.
 * Apply CRUD Operations to Doctors.
-* Use Swagger to test all the CRUD operations for Employees and Projects.
+* Use Swagger to test all the CRUD operations for Doctors.
 
 ## How to install this Project
 
