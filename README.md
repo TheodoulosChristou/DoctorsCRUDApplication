@@ -1,13 +1,13 @@
 # Doctors CRUD Application with ASP.NET Core 7 (REST API - Backend) and Angular.js(Frontend)
 
-## A fully functional Employees and Projects CRUD Application written in ASP.NET Core 7 and Angular.js showing how to create employees and projects. 
+## A fully functional Doctors CRUD Application written in ASP.NET Core 7 and Angular.js showing how to create doctors. 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.5(Frontend)
 and the (Backend) generated with [ASP.NET] Core in version .NET-7.
 
 This project shows how to create,read,update and delete doctors. Every part of this project is sample code which shows how to do the following:
 
 * Create FrontEnd and UI with [Angular.js] and [PrimeNg].
-* Create a simple Web API that serves Projects and Employees using [ASP.NET] 7.
+* Create a simple Web API that serves Doctors using [ASP.NET] 7.
 * Apply CRUD Operations to Doctors.
 * Use Swagger to test all the CRUD operations for Doctors.
 
